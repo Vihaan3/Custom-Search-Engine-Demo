@@ -1,0 +1,30 @@
+body {
+ background-color: #f0f0f0;
+ font-family: Arial, sans-serif;
+}
+
+form {
+ width: 400px;
+ margin: 50px auto;
+}
+
+input[type="search"] {
+ width: 75%;
+ padding: 10px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+}
+
+input[type="submit"] {
+ width: 20%;
+ padding: 10px;
+ background-color: #4CAF50;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+input[type="submit"]:hover {
+ background-color: #45a049;
+}
