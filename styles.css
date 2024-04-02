@@ -1,19 +1,7 @@
 body {
- background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff);
- animation: gradient 5s ease infinite;
+ background: linear-gradient(45deg, #333, #666, #333);
  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
   Helvetica, Arial, "Lucida Grande", sans-serif;
-}
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
- }
-  50% {
-    background-position: 100% 50%;
- }
-  100% {
-    background-position: 0% 50%;
- }
 }
 
 form {
